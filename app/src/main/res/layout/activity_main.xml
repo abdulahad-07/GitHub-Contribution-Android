@@ -29,6 +29,11 @@
             android:text="Set User"
             android:onClick="@{() -> customClick.onClick()}" />
 
+        <ImageView
+            android:id="@+id/iv_contributions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
     </LinearLayout>
 
 </layout>

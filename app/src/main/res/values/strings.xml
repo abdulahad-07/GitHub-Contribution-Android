@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">GitHub Contributions</string>
     <string name="please_wait">Please wait...</string>
+    <string name="pl_enter_username">Please enter username</string>
 </resources>
