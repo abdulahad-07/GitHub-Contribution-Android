@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements CustomOnclickInte
 
         mViewModel = ViewModelProviders.of(this).get(MainActivityViewModel.class);
         mViewModel.init();
+
         mViewModel.getContributions().observe(this, contributions -> {
             assert contributions != null;
             iv_contributions.setImageBitmap(ImageContribution.generate(contributions, getScreenWidth()));
